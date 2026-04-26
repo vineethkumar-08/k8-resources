@@ -1,10 +1,10 @@
 apiiVersion: v1
 kind: Pod
 metadata:
-  name: multicontainer
+  name: multi-container
 spec: 
   coontainers: 
   - name: nginx
     image: nginx
   - name: almalinux
-    image: alamalinux
+    image: almalinux
