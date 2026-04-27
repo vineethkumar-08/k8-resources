@@ -3,7 +3,7 @@ kind: Pod
 metadata: 
   name: svc-test
 spec:
-  container:
+  containers:
   - name: almalinux
     image: almalinux:9
     command: ["sleep", "1000" ]
