@@ -5,7 +5,7 @@ metadata:
 spec:
   selector: # labels are used for selectors
     project: roboshop
-    trainer: vineeth-kumar-milatari
+    environment: dev
     component: frontend
     environment: dev
   ports:
