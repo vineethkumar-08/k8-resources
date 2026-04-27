@@ -9,7 +9,7 @@ metadata:
     tier: frontend
     component: frontend
   annotations: 
-    kubernetes.io/change-cause: "moving to 1.29"
+    kubernetes.io/change-cause: "moving to 1.30.0-trixie-perl"
 spec:
   replicas: 2
   selector:
@@ -31,5 +31,5 @@ spec:
     spec: 
       containers:
       - name: nginx
-        image: nginx:1.29
+        image: nginx:1.30.0-trixie-perl
 
